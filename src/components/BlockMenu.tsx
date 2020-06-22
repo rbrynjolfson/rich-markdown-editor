@@ -388,7 +388,7 @@ class BlockMenu extends React.Component<Props, State> {
                 type="text"
                 placeholder={
                   insertItem.title
-                    ? `Paste a ${insertItem.title} link…`
+                    ? `Paste a ${insertItem.title} link or press enter`
                     : "Paste a link…"
                 }
                 onKeyDown={this.handleLinkInputKeydown}

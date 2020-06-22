@@ -297,7 +297,7 @@ class BlockMenu extends React.Component {
             React.createElement(exports.Wrapper, Object.assign({ id: "block-menu-container", active: isActive, ref: this.menuRef }, positioning),
                 insertItem ? (React.createElement(LinkInputWrapper, null,
                     React.createElement(LinkInput, { type: "text", placeholder: insertItem.title
-                            ? `Paste a ${insertItem.title} link…`
+                            ? `Paste a ${insertItem.title} link or press enter for new…`
                             : "Paste a link…", onKeyDown: this.handleLinkInputKeydown, onPaste: this.handleLinkInputPaste, autoFocus: true }))) : (React.createElement(List, null,
                     items.map((item, index) => {
                         if (item.name === "separator") {
